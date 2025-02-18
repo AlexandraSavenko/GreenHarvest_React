@@ -1,7 +1,13 @@
+import hero_1x_min from "../assets/hero_1x_min.jpg"
+import hero_2x_min from "../assets/hero_2x_min.jpg"
+
 export default function HeroSection (){
     return <div className="hero">
         <h1>ORGANIC VEGETABLES TO YOUR DIET TODAY!</h1>
     <p>Our expertly curated vegetable baskets are made with the freshest, highest quality vegetables available. Fresh Harvest Box has got you covered. Fresh, high-quality vegetables in expertly curated vegetable baskets delivered to you.</p>
-    <img src="" alt="" />
+    <img srcSet={`${hero_2x_min}, ${hero_1x_min}`} 
+    src={hero_1x_min}
+    alt="beautiful vegetables"
+    width={200} />
     </div>
 }

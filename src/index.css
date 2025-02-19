@@ -1,3 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+
+:root {
+  --black: #141414;
+  --green: #576F35;
+  --beetroot: #7A3145;
+  --white: #FBFBFB;
+}
+
+body{
+  background-color: var(--green);
+  font-family: "Inter Tight", serif;
+}
+.wrapper {
+  min-width: 335px;
+  margin: 100px 20px 40px;
+}
+
+.modal{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--beetroot);
+}
+
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

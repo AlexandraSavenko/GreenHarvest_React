@@ -1,0 +1,9 @@
+.heroTitle{
+    color: var(--white);
+    /* line-height: 48; */
+        letter-spacing: 1.5;
+        margin-bottom: 20px;
+}
+.heroText{
+    color: var(--white);
+}

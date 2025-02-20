@@ -1,0 +1,21 @@
+.menuButton{
+    background-color: transparent;
+    border: none;
+}
+.burgerIcon {
+    fill: white;
+}
+.modalCloseBtn{
+    fill: white;
+    width: 32px;
+    height: 32px;
+}
+.modal{
+    padding: 20px;
+    position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--beetroot);
+}

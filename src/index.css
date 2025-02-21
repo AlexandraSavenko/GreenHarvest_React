@@ -5,7 +5,7 @@
 }
 img {
   display: block;
-  max-width: 100%;
+  /* max-width: 100%; */
 }
 
 :root {
@@ -13,6 +13,7 @@ img {
   --green: #576F35;
   --beetroot: #7A3145;
   --white: #FBFBFB;
+  --faded: #7a31447d;
 }
 
 ul{
@@ -24,8 +25,10 @@ body{
   color: var(--white);
 }
 .wrapper {
-  min-width: 335px;
-  margin: 100px 20px 40px;
+  /* min-width: 335px;
+  margin: 100px 20px 40px; */
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 /* .modal{

@@ -1,0 +1,30 @@
+.orderSteps li{
+    border-radius: 15px;
+padding: 12px 27px 12px 24px;
+background-color: var(--white);
+font-weight: 400;
+font-size: 12px;
+line-height: 117%;
+letter-spacing: -0.02em;
+color: rgba(20, 20, 20, 0.6);
+display: flex;
+}
+
+.orderStepNum{
+    font-weight: 600;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: -0.02em;
+color: var(--white);
+/* background-color: var(--beetroot);
+border: 2px solid var(--faded); */
+width: 52px;
+height: 52px;
+border-radius: 100%;
+/* background: radial-gradient(
+    var(--beetroot),
+    var(--beetroot) 70%,
+    yellow 70%,
+    yellow 100%
+); */
+}

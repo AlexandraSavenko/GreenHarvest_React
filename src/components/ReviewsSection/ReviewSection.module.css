@@ -9,13 +9,45 @@ line-height: 104%;
 letter-spacing: -0.01em;
 text-transform: uppercase;
 color: var(--black);
+margin-bottom: 20px;
 }
 .reviews h2 span {
     color: var(--green)
 }
+.reviews h3{
+    font-weight: 600;
+font-size: 16px;
+line-height: 125%;
+letter-spacing: -0.02em;
+text-align: center;
+color: #040306;
+margin-bottom: 8px;
+}
 .reviews p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 129%;
+    color: black;
+    margin-bottom: 40px;
+}
+
+.slide{
+    border: 1px solid rgba(122, 49, 69, 0.3);
+    border-radius: 24px;
+    padding: 20px 16px 40px;
+}
+
+img{
+    overflow: hidden;
+    margin: 0 auto;
+    margin-bottom: 20px;
+
+}
+
+.slide > p{
     font-weight: 400;
 font-size: 14px;
 line-height: 129%;
-color: var(--black);
+text-align: center;
+color: rgba(4, 3, 6, 0.4);
 }

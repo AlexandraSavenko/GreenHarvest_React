@@ -1,0 +1,21 @@
+.reviews {
+    background-color: var(--white);
+    padding: 80px 20px;
+}
+.reviews h2 {
+    font-weight: 600;
+font-size: 48px;
+line-height: 104%;
+letter-spacing: -0.01em;
+text-transform: uppercase;
+color: var(--black);
+}
+.reviews h2 span {
+    color: var(--green)
+}
+.reviews p {
+    font-weight: 400;
+font-size: 14px;
+line-height: 129%;
+color: var(--black);
+}

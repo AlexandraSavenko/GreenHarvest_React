@@ -7,13 +7,11 @@ import ReviewsSection from './components/ReviewsSection/ReviewsSection'
 import HarvestBoxSection from './components/HarvestBoxSection/HarvestBoxSection'
 import Footer from './components/Footer/Footer'
 import './App.css'
-import Modal from './components/Modal/Modal'
+// import Modal from './components/Modal/Modal'
 
 function App() {
-  const modalIsOpen = false;
 return <div>
 <Header/>
-{modalIsOpen && <Modal/>}
 <HeroSection/>
 <OrderStepsSection/>
 <DiscountSection/>

@@ -9,18 +9,18 @@ export default function OrderStepsSection () {
          src={OrderSteps_1x_min} alt="a happy woman is slicing an apple" width={200} />
          </div>
         <h2>TO ORDER YOUR <span>VEGETABLE</span> BASKET, SIMPLY FOLLOW THESE <span>EASY STEPS</span></h2>
-    <p>Our baskets are assembled with care and delivered straight to your doorstep, so you can enjoy the taste of fresh fruit without ever leaving your home.</p>
-    <ul className={css.orderSteps}>
+    <p className={css.orderStepsText}>Our baskets are assembled with care and delivered straight to your doorstep, so you can enjoy the taste of fresh fruit without ever leaving your home.</p>
+    <ul className={css.orderStepslist}>
         <li>
-            <span className={css.orderStepNum}>1</span>
+            <div className={css.orderStepNum}><span>1</span></div>
             <p>Just choose <span>the vegetable</span> you want to order by clicking on the checkboxes <span>next to it</span> .</p>
         </li>
         <li>
-            <span className={css.orderStepNum}>2</span>
+            <div className={css.orderStepNum}><span>2</span></div>
             <p>Click on <span>the basket</span>  and fill out the form.</p>
         </li>
         <li>
-            <span className={css.orderStepNum}>3</span>
+            <div className={css.orderStepNum}><span>3</span></div>
             <p>Sit back and relax! Your <span>fresh vegetable</span> basket will be delivered.</p>
         </li>
     </ul>

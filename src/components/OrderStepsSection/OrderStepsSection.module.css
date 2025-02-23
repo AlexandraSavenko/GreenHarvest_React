@@ -18,6 +18,18 @@ max-width: 100%;
 
 overflow: hidden;
 }
+.orderStepsText{
+    font-family: var(--fallback-font);
+    font-weight: 400;
+font-size: 14px;
+line-height: 129%;
+margin-bottom: 40px;
+margin-top: 20px;
+}
+.orderStepsList{
+    background-color: var(--green);
+    margin-bottom: 20px;
+}
 .orderSteps li{
     border-radius: 15px;
 padding: 12px 27px 12px 24px;
@@ -28,6 +40,8 @@ line-height: 117%;
 letter-spacing: -0.02em;
 color: rgba(20, 20, 20, 0.6);
 display: flex;
+gap: 24px;
+margin-bottom: 20px;
 }
 
 .orderStepNum{
@@ -41,10 +55,22 @@ border: 2px solid var(--faded); */
 width: 52px;
 height: 52px;
 border-radius: 100%;
-/* background: radial-gradient(
+flex-shrink: 0;
+background: radial-gradient(
     var(--beetroot),
-    var(--beetroot) 70%,
-    yellow 70%,
-    yellow 100%
-); */
+    var(--beetroot) 50%,
+    var(--faded) 50%,
+    var(--faded) 100%
+);
+}
+
+.footerPolicy {
+    display: flex;
+}
+.footerPolicy p{
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 12px;
+line-height: 117%;
+letter-spacing: -0.01em;
 }

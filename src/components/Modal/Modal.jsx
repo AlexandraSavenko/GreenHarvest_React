@@ -17,7 +17,7 @@ export default function Modal () {
     return open ?  <div className={css.modal}>
     <button className={css.menuButton} onClick={toggleModal}><CgClose className={css.modalCloseIcon} />
     </button>
-        <Navigation/>
+        <Navigation className={css.navLink}/>
         <ShopNowBtn/>
     </div> : <button className={css.menuButton} onClick={toggleModal}><HiMenuAlt1 className={css.burgerIcon} />
 </button>

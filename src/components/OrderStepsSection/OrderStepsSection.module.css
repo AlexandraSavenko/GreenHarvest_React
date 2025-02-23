@@ -1,3 +1,23 @@
+.orderSteps{
+    background: linear-gradient(
+        var(--beetroot),
+        var(--beetroot) 50%,
+        var(--green) 50%,
+        var(--green) 100%
+    );
+}
+
+.imgWrapper{    
+    border: 1px solid;
+    border-radius: 30px;
+  width: 335px;
+height: 450px;  
+}
+.orderStepImg{
+max-width: 100%;
+
+overflow: hidden;
+}
 .orderSteps li{
     border-radius: 15px;
 padding: 12px 27px 12px 24px;

@@ -1,0 +1,23 @@
+.navigation{
+min-width: 142px;
+}
+.navLink{
+    text-decoration: none;
+    border: 1px solid rgba(251, 251, 251, 0.4);
+border-radius: 12px;
+padding: 12px 16px;
+display: block;
+margin-bottom: 8px;
+font-family: var(--fallback-font);
+font-weight: 400;
+font-size: 14px;
+line-height: 129%;
+letter-spacing: -0.02em;
+text-align: center;
+text-transform: capitalize;
+color: var(--white);
+}
+.navLink:hover{
+    background-color: var(--white);
+    color: var(--beetroot);
+}

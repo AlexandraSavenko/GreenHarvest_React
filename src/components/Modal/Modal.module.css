@@ -1,12 +1,15 @@
 .menuButton{
     background-color: transparent;
     border: none;
+    align-self: flex-end;
 }
 .burgerIcon {
     fill: white;
+    width: 32px;
+    height: 32px;
 }
-.modalCloseBtn{
-    fill: white;
+.modalCloseIcon{
+color: var(--white);
     width: 32px;
     height: 32px;
 }
@@ -19,4 +22,8 @@
   height: 100vh;
   background-color: var(--beetroot);
   z-index: 100;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }

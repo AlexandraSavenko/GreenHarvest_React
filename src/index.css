@@ -5,7 +5,6 @@
 }
 img {
   display: block;
-  /* max-width: 100%; */
 }
 
 :root {
@@ -14,6 +13,9 @@ img {
   --beetroot: #7A3145;
   --white: #FBFBFB;
   --faded: #7a31447d;
+  --main-font: "Inter Tight", serif;
+  --fallback-font: "Abril Fatface", serif;
+ 
 }
 
 ul{
@@ -21,7 +23,7 @@ ul{
 }
 body{
   background-color: var(--green);
-  font-family: "Inter Tight", serif;
+  font-family: var(--main-font), var(--fallback-font);
   color: var(--white);
 }
 .wrapper {

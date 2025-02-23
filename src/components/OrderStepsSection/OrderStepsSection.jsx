@@ -2,10 +2,12 @@ import OrderSteps_1x_min from "../assets/OrderSteps_1x_min.jpg"
 import OrderSteps_2x_min from "../assets/OrderSteps_2x_min.jpg"
 import css from "./OrderStepsSection.module.css"
 export default function OrderStepsSection () {
-    return <div className="orderSteps">
+    return <div className={css.orderSteps}>
         <div className="wrapper">
-            <img srcSet={`${OrderSteps_2x_min}, ${OrderSteps_1x_min}`}
+            <div className={css.imgWrapper}>
+            <img className={css.orderStepImg} srcSet={`${OrderSteps_2x_min}, ${OrderSteps_1x_min}`}
          src={OrderSteps_1x_min} alt="a happy woman is slicing an apple" width={200} />
+         </div>
         <h2>TO ORDER YOUR <span>VEGETABLE</span> BASKET, SIMPLY FOLLOW THESE <span>EASY STEPS</span></h2>
     <p>Our baskets are assembled with care and delivered straight to your doorstep, so you can enjoy the taste of fresh fruit without ever leaving your home.</p>
     <ul className={css.orderSteps}>

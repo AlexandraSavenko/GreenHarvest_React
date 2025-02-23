@@ -10,16 +10,15 @@ import { CgClose } from "react-icons/cg";
 export default function Modal () {
     const [open, setOpen] = useState(false)
 
-    function openModal () {
+    function toggleModal () {
         setOpen(!open)
-console.log(open)
     }
 
-    return open ? <button className={css.menuButton} onClick={openModal}><HiMenuAlt1 className={css.burgerIcon} />
-</button> : <div className={css.modal}>
-    <button className={css.menuButton} onClick={openModal}><CgClose className={css.modalCloseBtn} />
+    return open ?  <div className={css.modal}>
+    <button className={css.menuButton} onClick={toggleModal}><CgClose className={css.modalCloseIcon} />
     </button>
         <Navigation/>
         <ShopNowBtn/>
-    </div>
+    </div> : <button className={css.menuButton} onClick={toggleModal}><HiMenuAlt1 className={css.burgerIcon} />
+</button>
 }

@@ -22,6 +22,19 @@ line-height: 129%;
 margin-bottom: 40px;
 }
 
+.box{
+display: flex;
+gap: 24px;
+}
+.formWrapper{
+    background-color: var(--white);
+    padding: 50px;
+}
+.formWrapper h3{
+    color: black;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
 .socMedia{
     background-color: var(--green);
     border-radius: 30px;

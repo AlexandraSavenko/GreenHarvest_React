@@ -4,7 +4,7 @@
 // import DiscountSection from './components/DiscountSection/DiscountSection'
 // import OrganicVegeSection from './components/OrganicVegeSection/OrganicVegeSection'
 // import ReviewsSection from './components/ReviewsSection/ReviewsSection'
-// import HarvestBoxSection from './components/HarvestBoxSection/HarvestBoxSection'
+ import HarvestBoxSection from './components/HarvestBoxSection/HarvestBoxSection'
 // import Footer from './components/Footer/Footer'
 import './App.css'
 import NavBar from './components/NavBar/NavBar'
@@ -19,7 +19,7 @@ return <div>
 {/* <DiscountSection/> */}
 {/* <OrganicVegeSection/> */}
 {/* <ReviewsSection/> */}
-{/* <HarvestBoxSection/> */}
+<HarvestBoxSection/>
 {/* <Footer/> */}
 </div>
 }

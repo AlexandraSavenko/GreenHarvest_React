@@ -9,3 +9,19 @@
     color: var(--white);
     margin-bottom: 40px;
 }
+
+.heroImage{
+    background-image: url(../assets/hero_1x_min.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 370px;
+}
+
+@media (min-width: 1280px) {
+    .heroContent{
+        display: flex;
+        flex-wrap: wrap;
+        width: 1200px;
+    }
+}
